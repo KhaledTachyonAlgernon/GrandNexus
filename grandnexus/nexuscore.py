@@ -7,6 +7,8 @@ import json  # For serializing/deserializing module configurations
 from typing import Dict, Any, Optional, List, Callable, Union, Tuple, Set  # Importer Set
 import heapq  # Correctly manage priorities
 
+from grandnexus.errorrecovery import ErrorRecoveryManager
+
 
 class NexusCore:
     """
